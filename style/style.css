@@ -116,6 +116,17 @@ header {
   color: #737272;
 }
 
+/* ---- Regular activities section ---- */
+.regular-activities {
+  padding: 0px 230px;
+  margin-bottom: 120px;
+}
+
+.activities-icon {
+  width: 92.96px;
+  height: 92.96px;
+}
+
 /* ---- motivation section ---- */
 .motivation-section {
   margin: 0px 190px;
