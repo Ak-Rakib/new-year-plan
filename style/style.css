@@ -60,11 +60,10 @@ header {
 }
 
 .failure-section-img {
-
 }
 
 .failure-section-text {
-    padding-top: 250px;
+  padding-top: 250px;
 }
 
 .failure-section-img {
@@ -82,4 +81,26 @@ header {
   font-size: 16px;
   color: #444343;
   margin-bottom: 16px;
+}
+
+/* ---- plan section ---- */
+.plan-section {
+  padding: 0px 230px;
+}
+
+.plan-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.plan-section-parents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-section-icon {
+    text-align: center;
 }
