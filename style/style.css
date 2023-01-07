@@ -14,21 +14,19 @@ header {
 
 .header-info {
   direction: rtl;
-  padding-right: 180px;
+  padding-right: 100px;
   padding-top: 216px;
   padding-left: 835px;
 }
 
 .header-title {
-  direction: ltr;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 45px;
   color: #151414;
   margin-bottom: 24px;
 }
 
 .header-description {
-  direction: ltr;
   font-weight: 400;
   font-size: 16px;
   color: #444343;
@@ -48,6 +46,3 @@ header {
     cursor: pointer;
 }
 
-.header-btn {
-    direction: ltr;
-}
