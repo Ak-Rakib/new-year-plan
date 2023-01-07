@@ -83,9 +83,16 @@ header {
   margin-bottom: 16px;
 }
 
+.failure-section-list {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
 /* ---- plan section ---- */
 .plan-section {
   padding: 0px 230px;
+  margin-bottom: 120px;
 }
 
 .plan-title {
@@ -97,10 +104,109 @@ header {
 }
 
 .plan-section-parents {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .plan-section-icon {
-    text-align: center;
+  text-align: center;
+}
+
+.plan-section-description {
+  color: #737272;
+}
+
+/* ---- motivation section ---- */
+.motivation-section {
+  margin: 0px 190px;
+  margin-bottom: 130px;
+}
+
+.motivation-section-info {
+  background-image: url(../images/watch.png);
+  width: 900px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.linear-set {
+  background: linear-gradient(to right, rgb(245, 92, 32) 50%, rgb(85, 84, 84));
+  width: 900px;
+  height: 250px;
+  border-radius: 8px;
+  opacity: 0.4;
+}
+
+.motivation-section-info-details {
+  padding-left: 64px;
+  padding-top: 59px;
+  padding-bottom: 59px;
+  padding-right: 617px;
+}
+
+.motivation-section-title {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.motivation-section-btn {
+  background-color: white;
+  color: #f15b22;
+  border: 0px;
+  padding: 15px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.motivation-section-btn:hover {
+  cursor: pointer;
+}
+
+/* ---- footer section ---- */
+.footer-section {
+  padding: 130px 230px;
+  background-color: black;
+}
+
+.footer-parents {
+  display: flex;
+}
+
+.footer-child01 {
+  padding-right: 300px;
+}
+
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-description01 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-description02 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-title01 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-input-email {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-icon {
+  margin-right: 10px;
 }
